@@ -1,0 +1,100 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------------
+# Django
+# -------------------------
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+tmp/
+
+# Don't ignore static/ if you commit collected static → remove "static/" above
+
+# Django Migrations (optional — ONLY ignore if you prefer)
+# Uncomment if you do NOT want to track migration files
+# */migrations/
+# !*/migrations/__init__.py
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+# VSCode
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Cache / Temporary
+# -------------------------
+*.tmp
+*.temp
+*.bak
+.cache/
+pytest_cache/
+pip-wheel-metadata/
+.pytest_cache/
+__pypackages__/
+
+# -------------------------
+# Byte-compiled / compiled
+# -------------------------
+*.so
+
+# -------------------------
+# Testing
+# -------------------------
+.coverage
+coverage.xml
+coverage/
+
+# -------------------------
+# Docker
+# -------------------------
+docker-compose.override.yml
+
+.env
